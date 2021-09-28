@@ -1,4 +1,4 @@
-# 📅 ComEve - Opensource Event Management App built with Angular on Frontent 🔥
+# 📅 ComEve - Opensource Event Management App built with Angular 🔥
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.1.
 
