@@ -1,28 +1,28 @@
-# 📅 ComEve - Opensource Event Management App built with Angular 🔥
+# 📅 ComEve (Opensource Event Management App built with Angular) 🔥
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.1.
 
-# 👉 Want to Contribute? ✨🔋
+## 👉 Want to Contribute? ✨🔋
 follow these [Contribution Guidelines](https://github.com/muhammadawaisshaikh/community-events-angular/blob/main/Contributing.md)
 
-# 👉 Some helpful Angular Tech Blogs 📝
+## 👉 Some helpful Angular Tech Blogs 📝
 https://dev.to/muhammadawaisshaikh
 
-# 👉 Some helpful Angular Video Content 🎥
+## 👉 Some helpful Angular Video Content 🎥
 https://www.youtube.com/developerorium
 
-# 👉 Angular CLI generate commands: 🛠
+## 👉 Angular CLI generate commands: 🛠
 
-## Module Creation
+### Module Creation
 > ng g module auth --routing
 
-## Component Creation
+### Component Creation
 > ng g component auth
 
-## Service Creation
+### Service Creation
 > ng g service auth
 
-# 👉 Contributors ✨🏆
+## 👉 Contributors ✨🏆
 
 Thanks goes to these wonderful people:
 
