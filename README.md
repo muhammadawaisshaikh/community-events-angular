@@ -1,27 +1,48 @@
-# CommunityEventsAngular
+# 📅 ComEve (Opensource Event Management App built with Angular) 🔥
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.1.
 
-## Development server
+## 👉 Want to Contribute? ✨🔋
+follow these [Contribution Guidelines](https://github.com/muhammadawaisshaikh/community-events-angular/blob/main/Contributing.md)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## 👉 Some helpful Angular Tech Blogs 📝
+https://dev.to/muhammadawaisshaikh
 
-## Code scaffolding
+## 👉 Some helpful Angular Video Content 🎥
+https://www.youtube.com/developerorium
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## 👉 Angular CLI generate commands: 🛠
 
-## Build
+### Module Creation
+> ng g module auth --routing
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Component Creation
+> ng g component auth
 
-## Running unit tests
+### Service Creation
+> ng g service auth
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## 👉 Contributors ✨🏆
 
-## Running end-to-end tests
+Thanks goes to these wonderful people:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+<table>
+  <tbody>
+    <tr>
+      <td align="center">
+        <a href="https://github.com/thrashtechinfo" rel="nofollow">
+          <img src="https://avatars2.githubusercontent.com/u/72252901?s=460&u=615081a4b9a97dfe658e50a2c5b4572279e0b6f1&v=4" width="100px;" alt="" style="max-width:100%; border-radius: 50%;"><br>
+          <sub><b>Thrashtech Solutions</b></sub><br>
+          <sub>@thrashtechinfo</sub>
+        </a>
+      </td>
+      <td align="center">
+        <a href="https://github.com/muhammadawaisshaikh" rel="nofollow">
+          <img src="https://avatars2.githubusercontent.com/u/24633059?s=460&u=19555ad8fcd6f89b231927b19650d05193d257e0&v=4" width="100px;" alt="" style="max-width:100%; border-radius: 50%;"><br>
+          <sub><b>Muhammad Awais</b></sub><br>
+          <sub>@muhammadawaisshaikh</sub>
+        </a>
+      </td>
+    </tr>
+  </tbody>
+</table>
