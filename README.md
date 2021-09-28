@@ -3,7 +3,9 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.1.
 
 ## 👉 Want to Contribute? ✨🔋
-follow these [Contribution Guidelines](https://github.com/muhammadawaisshaikh/community-events-angular/blob/main/Contributing.md)
+1️⃣ Hit "Star" 🚀
+2️⃣ Fork "Repo"
+3️⃣ Follow [Contribution Guidelines](https://github.com/muhammadawaisshaikh/community-events-angular/blob/main/Contributing.md)
 
 ## 👉 Some helpful Angular Tech Blogs 📝
 https://dev.to/muhammadawaisshaikh
