@@ -94,7 +94,7 @@ Thanks goes to these wonderful people:
       <td align="center">
         <a href="https://github.com/kala2" rel="nofollow">
           <img src="https://avatars.githubusercontent.com/u/16071782" width="100px;" alt="" style="max-width:100%; border-radius: 50%;"><br>
-          <sub><b>Muhammad Idrees</b></sub><br>
+          <sub><b>Themistoklis Bogiatzoglou</b></sub><br>
           <sub>@kala2</sub>
         </a>
       </td>
