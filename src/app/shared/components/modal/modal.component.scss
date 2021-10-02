@@ -1,0 +1,32 @@
+.events {
+  padding: 20px;
+
+  h2 {
+    font-weight: 700;
+  }
+}
+
+.modal-header {
+  border-bottom: none;
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+
+  .social-item {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: #3b88ad;
+
+    img {
+      margin-right: 10px;
+      width: 40px;
+      height: 40px;
+    }
+  }
+}
