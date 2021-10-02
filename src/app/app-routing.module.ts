@@ -2,16 +2,20 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
+  { 
+    path: 'auth', 
+    loadChildren: () => import('./components/auth/auth.module').then(m => m.AuthModule) 
+  },
   {
-    path: 'auth',
+    path: 'blog',
     loadChildren: () =>
-      import('./components/auth/auth.module').then((m) => m.AuthModule),
+      import('./components/blog/blog.module').then((m) => m.BlogModule),
   },
   {
     path: 'events',
     loadChildren: () =>
       import('./components/events/events.module').then((m) => m.EventsModule),
-  },
+  }
 ];
 
 @NgModule({
