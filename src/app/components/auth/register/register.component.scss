@@ -1,0 +1,43 @@
+@import '../../../../styles.scss';
+
+.register{
+  .register-inner{
+    .heading{
+      text-align: center;
+      img{
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        object-position: center;
+      }
+      h4{
+        font-size: 25px;
+        font-weight: 600;
+        color: black;
+      }
+    }
+    .texts{
+      padding-top: 5%;
+      p{
+        text-align: center;
+        font-size: 13px;
+        padding: 0 15px;
+        color: $silver;
+      }
+    }
+    .seprator{
+      background-color: #d7d7d7;
+      width: 85%;
+      height: 1px;
+      display: block;
+      margin: auto;
+      margin-top: 5%;
+    }
+    p{
+      text-align: center;
+      font-size: 13px;
+      padding: 0 15px;
+      color: $silver;
+    }
+  }
+}
