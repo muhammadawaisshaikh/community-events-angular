@@ -77,6 +77,33 @@ Thanks goes to these wonderful people:
           <sub>@muhammadawaisshaikh</sub>
         </a>
       </td>
+      <td align="center">
+        <a href="https://github.com/ilyasahmedshaikh" rel="nofollow">
+          <img src="https://avatars.githubusercontent.com/u/46137314" width="100px;" alt="" style="max-width:100%; border-radius: 50%;"><br>
+          <sub><b>Ilyas Ahmed</b></sub><br>
+          <sub>@ilyasahmedshaikh</sub>
+        </a>
+      </td>
+      <td align="center">
+        <a href="https://github.com/muhammadidreesshaikh" rel="nofollow">
+          <img src="https://avatars.githubusercontent.com/u/47222718" width="100px;" alt="" style="max-width:100%; border-radius: 50%;"><br>
+          <sub><b>Muhammad Idrees</b></sub><br>
+          <sub>@muhammadidreesshaikh</sub>
+        </a>
+      </td>
+      <td align="center">
+        <a href="https://github.com/kala2" rel="nofollow">
+          <img src="https://avatars.githubusercontent.com/u/16071782" width="100px;" alt="" style="max-width:100%; border-radius: 50%;"><br>
+          <sub><b>Themistoklis Bogiatzoglou</b></sub><br>
+          <sub>@kala2</sub>
+        </a>
+      </td>
+      <td align="center">
+        <a href="https://github.com/haroon786" rel="nofollow">
+          <img src="https://avatars.githubusercontent.com/u/20164301" width="100px;" alt="" style="max-width:100%; border-radius: 50%;"><br>
+          <sub><b>Haroon Ansari</b></sub><br>
+          <sub>@haroon786</sub>
+        </a>
     </tr>
   </tbody>
 </table>
