@@ -1,0 +1,33 @@
+<div class="event-listing">
+    <div class="row">
+        <div class="col-12 col-md-3 col-lg-3 mt-3" *ngFor="let item of card">
+            <div class="c-img">
+                <img src="{{item.image}}">
+                <div class="camera">
+                  <i class="fas fa-video"></i> 
+                  <p>Online Event</p>
+                </div>
+              </div>
+              <div class="content">
+                <p class="date">{{item.date}}</p>
+                <h6 class="e-title">{{item.title}}</h6>
+                <p class="sub-text">{{item.text}}</p>
+              </div>
+              <div class="presents">
+                <div class="views ">
+                  <div class="images">
+                    <ul>
+                      <li *ngFor="let user of item.users.recentUsers"><img src="{{user.img}}"></li>
+                    </ul>
+                  </div>
+                  <div class="status">
+                    <p>{{item.users.count}}</p>
+                  </div>
+                </div>
+                <div class="upload-icon">
+                  <i class="fas fa-upload"></i>
+                </div>
+              </div>
+        </div>
+    </div>
+  </div>
