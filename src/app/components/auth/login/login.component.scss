@@ -1,0 +1,74 @@
+@import '../../../../styles.scss';
+
+.login{
+  .login-inner{
+    .heading{
+      text-align: center;
+      img{
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        object-position: center;
+      }
+      h4{
+        font-size: 25px;
+        font-weight: 600;
+        color: black;
+      }
+      p{
+        padding-top: 20px;
+        font-size: 16px;
+        text-align: center;
+        a{
+          padding-left: 3px;
+        }
+      }
+    }
+    .forms{
+      a{
+        float: right;
+      }
+    }
+    .extra-option{
+      padding-top: 5%;
+      p{
+        text-align: center;
+        color: $silver;
+        font-size: 17px;
+        &:before{
+          content: "";
+          position: absolute;
+          bottom: 118px;
+          left: 5%;
+          width: 40%;
+          height: 1px;
+          background-color: #d4d4d4;
+        }
+        &:after{
+          content: "";
+          position: absolute;
+          bottom: 118px;
+          right: 5%;
+          width: 40%;
+          height: 1px;
+          background-color: #d4d4d4;
+        }
+      }
+    }
+    .card{
+      .google-btn{
+        text-align: center;
+        img{
+          width: 25px;
+          height: auto;
+          object-fit: cover;
+          object-position: center;
+          float: left;
+        }
+        a{
+          color: black;
+        }
+      }
+    }
+  }
+}
