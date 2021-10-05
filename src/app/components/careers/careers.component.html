@@ -1,1 +1,107 @@
-<p>careers works!</p>
+<div class="careers">
+    <div class="carousel-img" style="background-image: url(https://media.smallbiztrends.com/2016/09/shutterstock_439605592-850x476.jpg);">
+        <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-10 col-lg-10">
+            <h1>Join our team, find your people</h1>
+            <p>Meetup brings people together in person (and now online!)—starting with our team. Join us in our mission of empowering people to achieve personal growth by making real human connections.</p>
+            <button type="button" class="btn btn-primary">Explore Opportunites</button>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="work-meetup-section">
+        <div class="container">
+        <div class="row">
+            <div class="col-12">
+            <h1 class="heading">What it means to work at Meetup</h1>
+            <p class="sub-heading">Our six core values inspire us to do what we love, full-time.</p>
+            </div>
+        </div>
+        <div class="row work-card">
+            <div class="col-12 col-md-3 col-lg-3 mt-5">
+            <h2>We <span>Elevate People</span> and <span>Lead with Integrity</span></h2>
+            </div>
+            <div class="col-12 col-md-9 col-lg-9 mt-5">
+            <p>Equality matters on Meetup and at Meetup. Elevating people means we show up for each other and support bringing our whole selves to the conversation. Our actions carry weight, which is why ours are rooted in respect. We value leading with integrity because doing good work is more than just doing a good job; it’s doing the right thing.</p>
+            </div>
+        </div>
+        <div class="row work-card">
+            <div class="col-12 col-md-3 col-lg-3 mt-5">
+            <h2>We <span>Focus on Impact</span> and <span>Invite Change</span></h2>
+            </div>
+            <div class="col-12 col-md-9 col-lg-9 mt-5">
+            <p>Our job is to foster real-life connections and it’s one of the most challenging and rewarding jobs in the world. That’s why all of the decisions we make focus on making the greatest impact on people’s lives. That requires getting creative. We invite change because a willingness to welcome the unknown is essential for growth and innovation.</p>
+            </div>
+        </div>
+        <div class="row work-card">
+            <div class="col-12 col-md-3 col-lg-3 mt-5">
+            <h2>We <span>Step Up</span> and <span>Trust in Transparency</span></h2>
+            </div>
+            <div class="col-12 col-md-9 col-lg-9 mt-5">
+            <p>Making face-to-face connections possible is what we do and we think the world’s a better place for it. Everyone at Meetup shares accountability for stepping up in doing what it takes to achieve our mission. That means knowing when to offer and when to ask for help. To make that collaboration possible, we give everyone access to information that allows us to debate, align, and act. Transparency builds trust and that is the foundation to open communication.</p>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="our-team-section">
+        <div class="container">
+        <div class="row">
+            <div class="col-12">
+            <h1 class="heading">Explore our teams</h1>
+            <p class="sub-heading">Like what you see? Come work with us.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-4 col-lg-4" *ngFor="let item of jobs">
+            <div class="card mt-4">
+                <h1>{{item.jobTitle}}</h1>
+                <div class="seprator"></div>
+                <i class="fas fa-arrow-right"></i>
+            </div>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-12">
+            <div class="other-jobs">
+                <span>See  <a>all opportunities</a>.  Don’t see your role?  <a>Stay in touch</a>.</span>
+            </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="benefits">
+        <div class="container">
+        <div class="row">
+            <div class="col-12">
+            <h1 class="heading">Perks and Benefits</h1>
+            </div>
+            <div class="col-12 col-md-4 col-lg-4 mt-5 b-card">
+            <i class="fas fa-stethoscope"></i>
+            <p>Excellent health, dental, and vision coverage</p>
+            </div>
+            <div class="col-12 col-md-4 col-lg-4 mt-5 b-card">
+            <i class="fas fa-chart-bar"></i>
+            <p>Robust Learning and Development program</p>
+            </div>
+            <div class="col-12 col-md-4 col-lg-4 mt-5 b-card">
+            <i class="fas fa-hand-holding-heart"></i>
+            <p>Generous paid parental and family leave</p>
+            </div>
+            <div class="col-12 col-md-4 col-lg-4 mt-5 b-card">
+            <i class="fas fa-image"></i>
+            <p>Flexible PTO and focus on wellness</p>
+            </div>
+            <div class="col-12 col-md-4 col-lg-4 mt-5 b-card">
+            <i class="fas fa-calendar-alt"></i>
+            <p>Continuous employee events and programming</p>
+            </div>
+            <div class="col-12 col-md-4 col-lg-4 mt-5 b-card">
+            <i class="fas fa-glass-cheers"></i>
+            <p>Curated meals, snacks, drinks and treats</p>
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
