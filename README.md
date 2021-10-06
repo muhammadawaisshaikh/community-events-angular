@@ -78,6 +78,13 @@ Thanks goes to these wonderful people:
           <sub>@haroon786</sub>
         </a>
       </td>
+      <td align="center">
+        <a href="https://github.com/GregSithole" rel="nofollow">
+          <img src="https://avatars.githubusercontent.com/u/18423188?v=4" width="100px;" alt="" style="max-width:100%; border-radius: 50%;"><br>
+          <sub><b>Greg Sithole</b></sub><br>
+          <sub>@GregSithole</sub>
+        </a>
+      </td>
     </tr>
   </tbody>
 </table>
