@@ -16,6 +16,16 @@ const routes: Routes = [
     path: 'events',
     loadChildren: () =>
       import('./components/events/events.module').then((m) => m.EventsModule),
+  },
+  {
+    path: 'about',
+    loadChildren: () =>
+      import('./components/about/about.module').then((m) => m.AboutModule),
+  },
+  {
+    path: 'careers',
+    loadChildren: () =>
+      import('./components/careers/careers.module').then((m) => m.CareersModule),
   }
 ];
 

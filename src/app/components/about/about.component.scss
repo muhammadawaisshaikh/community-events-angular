@@ -1,0 +1,137 @@
+@import '../../../styles.scss';
+
+.about-us {
+    .carousel-img {
+      width: 100%;
+      height: 80vh;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-blend-mode: soft-light;
+      background-color: #00000073;
+      h1 {
+        font-size: 48px;
+        font-weight: 600;
+        color: white;
+        padding-right: 58%;
+        line-height: 1.3;
+      }
+      p {
+        font-size: 22px;
+        font-weight: 500;
+        color: white;
+        line-height: 1.3;
+        padding-right: 15%;
+        padding-top: 18px;
+        padding-bottom: 50px;
+      }
+    }
+    .services {
+      padding: 5% 0;
+      h1 {
+        &.heading {
+          text-align: center;
+          font-size: 30px;
+          font-weight: 600;
+          color: black;
+          padding-bottom: 38px;
+        }
+      }
+      .s-card {
+        text-align: center;
+        i {
+          color: white;
+          font-size: 35px;
+          border: 1px solid #009fed;
+          background: #009fed;
+          border-radius: 50%;
+          padding: 20px;
+        }
+        h2 {
+          font-size: 24px;
+          font-weight: 600;
+          color: black;
+          padding-top: 25px;
+        }
+        p {
+          font-size: 15px;
+          color: black;
+          padding-top: 15px;
+        }
+      }
+    }
+    .groups {
+      padding: 4% 0;
+      h1 {
+        &.heading {
+          text-align: center;
+          font-size: 30px;
+          font-weight: 600;
+          color: black;
+          padding-bottom: 38px;
+        }
+      }
+      .g-card {
+        i {
+          font-size: 35px;
+          color: #009fed;
+        }
+        h2 {
+          font-size: 25px;
+          color: black;
+          font-weight: 600;
+          padding-bottom: 15px;
+        }
+        p {
+          font-size: 16px;
+          color: black;
+          padding-bottom: 18px;
+        }
+        a {
+          color: #009fed;
+          font-size: 18px;
+          font-weight: 600;
+          cursor: pointer;
+        }
+      }
+    }
+    .follow {
+      padding: 4% 0;
+      background: #f8f7ea;
+      h1 {
+        &.heading {
+          text-align: center;
+          font-size: 30px;
+          font-weight: 600;
+          color: black;
+          padding-bottom: 38px;
+        }
+      }
+      .f-card {
+        text-align: center;
+        border-right: 2px solid #dfe2db;
+        &:nth-child(5)
+         {
+           border-right: 0px;
+         }
+        a {
+          cursor: pointer;
+          text-decoration: none;
+          i {
+            color: #009fed;
+            font-size: 28px;
+            font-weight: 600;
+            padding-bottom: 25px;
+          }
+          p {
+            color: #000000;
+            font-size: 19px;
+            font-weight: 500;
+          }
+        }
+      }
+    }
+  }
