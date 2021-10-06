@@ -1,0 +1,68 @@
+<div id="group-stepper" class="bs-stepper">
+  <div class="bs-stepper-header">
+    <div class="step" data-target="#group-location">
+      <button class="step-trigger">
+        <span class="bs-stepper-circle">1</span>
+        <span class="bs-stepper-label">Group Location</span>
+      </button>
+    </div>
+    <div class="line"></div>
+    <div class="step" data-target="#group-interests">
+      <button class="step-trigger">
+        <span class="bs-stepper-circle">2</span>
+        <span class="bs-stepper-label">Group Interests</span>
+      </button>
+    </div>
+    <div class="line"></div>
+    <div class="step" data-target="#group-name">
+      <button class="step-trigger">
+        <span class="bs-stepper-circle">3</span>
+        <span class="bs-stepper-label">Group Name</span>
+      </button>
+    </div>
+  </div>
+  <div class="bs-stepper-content">
+    <div id="group-location" class="content">
+      <div class="row">
+        <div class="col col-12 p-5 mb-4 bg-light rounded-3">
+          Content 1
+        </div>
+      </div>
+      <div class="row">
+        <div class="col col-4 text-start d-grid">
+          <button (click)="next()" class="btn btn-primary">Next</button>
+        </div>
+      </div>
+    </div>
+    <div id="group-interests" class="content">
+      <div class="row">
+        <div class="col col-12 p-5 mb-4 bg-light rounded-3">
+          Content 2
+        </div>
+      </div>
+      <div class="row justify-content-between">
+        <div class="col col-4 text-start d-grid">
+          <button (click)="previous()" class="btn btn-primary">Previous</button>
+        </div>
+        <div class="col col-4 text-end d-grid">
+          <button (click)="next()" class="btn btn-primary">Next</button>
+        </div>
+      </div>
+    </div>
+    <div id="group-name" class="content">
+      <div class="row">
+        <div class="col col-12 p-5 mb-4 bg-light rounded-3">
+          Content 3
+        </div>
+      </div>
+      <div class="row justify-content-between">
+        <div class="col col-4 text-start d-grid">
+          <button (click)="previous()" class="btn btn-primary">Previous</button>
+        </div>
+        <div class="col col-4 text-end d-grid">
+          <button (click)="next()" class="btn btn-primary">Complete</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
