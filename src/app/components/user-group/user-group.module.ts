@@ -4,6 +4,7 @@ import { UserGroupComponent } from './user-group/user-group.component';
 import { UserGroupStepperComponent } from './user-group-stepper/user-group-stepper.component';
 import { UserGroupRoutingModule } from 'src/app/components/user-group/user-group-routing.module';
 import { RouterModule } from '@angular/router';
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 
@@ -15,6 +16,7 @@ import { RouterModule } from '@angular/router';
   imports: [
     CommonModule,
     RouterModule,
+    ReactiveFormsModule,
     UserGroupRoutingModule
   ]
 })
