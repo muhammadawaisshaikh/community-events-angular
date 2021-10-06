@@ -18,6 +18,16 @@ const routes: Routes = [
       import('./components/events/events.module').then((m) => m.EventsModule),
   },
   {
+    path: 'about',
+    loadChildren: () =>
+      import('./components/about/about.module').then((m) => m.AboutModule),
+  },
+  {
+    path: 'careers',
+    loadChildren: () =>
+      import('./components/careers/careers.module').then((m) => m.CareersModule),
+  },
+  {
     path: 'user-group',
     loadChildren: () =>
       import('./components/user-group/user-group.module').then((m) => m.UserGroupModule),

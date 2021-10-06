@@ -24,6 +24,11 @@ https://www.youtube.com/developerorium
 ### Service Creation
 > ng g service auth
 
+### deploy app on Github Pages
+> npx angular-cli-ghpages --dir=dist/community-events-angular
+
+https://medium.com/tech-insights/how-to-deploy-angular-apps-to-github-pages-gh-pages-896c4e10f9b4
+
 ## 👉 Contributors ✨🏆
 
 Thanks goes to these wonderful people:
