@@ -16,6 +16,11 @@ const routes: Routes = [
     path: 'events',
     loadChildren: () =>
       import('./components/events/events.module').then((m) => m.EventsModule),
+  },
+  {
+    path: 'user-group',
+    loadChildren: () =>
+      import('./components/user-group/user-group.module').then((m) => m.UserGroupModule),
   }
 ];
 
