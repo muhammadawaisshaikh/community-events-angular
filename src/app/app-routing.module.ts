@@ -26,6 +26,11 @@ const routes: Routes = [
     path: 'careers',
     loadChildren: () =>
       import('./components/careers/careers.module').then((m) => m.CareersModule),
+  },
+  {
+    path: 'user-group',
+    loadChildren: () =>
+      import('./components/user-group/user-group.module').then((m) => m.UserGroupModule),
   }
 ];
 
