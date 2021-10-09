@@ -10,6 +10,7 @@ import { FormControl, FormGroup, Validators } from '@angular/forms';
 export class UserGroupStepperComponent implements OnInit {
 
   private stepper: Stepper | undefined;
+  
   userGroupForm: FormGroup = new FormGroup({
     location: new FormControl('', [Validators.required]),
   });
