@@ -34,9 +34,12 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "node_modules/bs-stepper/dist/css/bs-stepper.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/bs-stepper/dist/js/bs-stepper.min.js"
+            ]
           },
           "configurations": {
             "production": {
