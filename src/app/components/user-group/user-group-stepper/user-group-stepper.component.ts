@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import Stepper from 'bs-stepper';
+import { FormControl, FormGroup, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-user-group-stepper',
@@ -8,7 +9,11 @@ import Stepper from 'bs-stepper';
 })
 export class UserGroupStepperComponent implements OnInit {
 
-  private stepper: Stepper | undefined
+  private stepper: Stepper | undefined;
+  
+  userGroupForm: FormGroup = new FormGroup({
+    location: new FormControl('', [Validators.required]),
+  });
 
   constructor() { }
 

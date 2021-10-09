@@ -25,12 +25,22 @@
     <div id="group-location" class="content">
       <div class="row">
         <div class="col col-12 p-5 mb-4 bg-light rounded-3">
-          Content 1
+          <h1>First, set your group's location.</h1>
+          <p class="mb-4">Meetup groups meet locally, in person and online. We'll connect you with people in your area, and more can join you online</p>
+
+          <form [formGroup]="userGroupForm">
+            <div class="input-group mb-3">
+              <span class="input-group-text transparent bg-white" id="search-addon">
+                <i class="fas fa-search"></i>
+              </span>
+              <input type="text" class="form-control left-border-none" placeholder="Search for a city" aria-label="user-group-location" formControlName="location" aria-describedby="search-addon">
+            </div>
+          </form>
         </div>
       </div>
       <div class="row">
         <div class="col col-4 text-start d-grid">
-          <button (click)="next()" class="btn btn-primary">Next</button>
+          <button (click)="next()" class="btn btn-secondary" [disabled]="userGroupForm.get('location')?.invalid">Next</button>
         </div>
       </div>
     </div>
@@ -42,10 +52,10 @@
       </div>
       <div class="row justify-content-between">
         <div class="col col-4 text-start d-grid">
-          <button (click)="previous()" class="btn btn-primary">Previous</button>
+          <button (click)="previous()" class="btn btn-secondary">Previous</button>
         </div>
         <div class="col col-4 text-end d-grid">
-          <button (click)="next()" class="btn btn-primary">Next</button>
+          <button (click)="next()" class="btn btn-secondary">Next</button>
         </div>
       </div>
     </div>
@@ -57,10 +67,10 @@
       </div>
       <div class="row justify-content-between">
         <div class="col col-4 text-start d-grid">
-          <button (click)="previous()" class="btn btn-primary">Previous</button>
+          <button (click)="previous()" class="btn btn-secondary">Previous</button>
         </div>
         <div class="col col-4 text-end d-grid">
-          <button (click)="next()" class="btn btn-primary">Complete</button>
+          <button (click)="next()" class="btn btn-secondary">Complete</button>
         </div>
       </div>
     </div>
