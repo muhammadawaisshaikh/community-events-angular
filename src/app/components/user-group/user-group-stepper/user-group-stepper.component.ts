@@ -16,7 +16,7 @@ export class UserGroupStepperComponent implements OnInit {
   });
 
   constructor() { }
-
+  groupName = "user group abc"
   ngOnInit(): void {
     this.stepper = new Stepper(<Element>document.querySelector('#group-stepper'), {
       linear: false,
