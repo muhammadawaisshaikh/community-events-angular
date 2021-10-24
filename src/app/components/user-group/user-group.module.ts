@@ -5,7 +5,7 @@ import { UserGroupStepperComponent } from './user-group-stepper/user-group-stepp
 import { UserGroupRoutingModule } from 'src/app/components/user-group/user-group-routing.module';
 import { RouterModule } from '@angular/router';
 import { ReactiveFormsModule } from '@angular/forms';
-
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -17,7 +17,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     CommonModule,
     RouterModule,
     ReactiveFormsModule,
-    UserGroupRoutingModule
+    UserGroupRoutingModule,
+    FormsModule
   ]
 })
 export class UserGroupModule { }
